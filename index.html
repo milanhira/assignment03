@@ -1,74 +1,181 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>legal-solutions</title>
-    <!-- bootstrap.main.css cdn  link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- fontawesome icons kit verssion -->
-    <script src="https://kit.fontawesome.com/c565824395.js" crossorigin="anonymous"></script>
-    <!-- custom syle css link -->
-    <link rel="stylesheet" href="./custom.css">
-  </head>
-  <body>
-    <!-- header section -->
-    <div class="header-section">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img class="text-danger" src="./images/icons/logo2.png" alt="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>legal-solutions</title>
+  <!-- bootstrap.main.css cdn  link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- fontawesome icons kit verssion -->
+  <script src="https://kit.fontawesome.com/c565824395.js" crossorigin="anonymous"></script>
+  <!-- custom syle css link -->
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+  <!-- header section -->
+  <div class="header-section">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="text-danger" src="./images/icons/logo2.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="container text-center d-flex flex-column d-md-flex flex-md-column flex-lg-row justify-content-md-around align-items-md-center">
+
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex ms-3">
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#">Home
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="border border-info container text-center d-flex flex-column d-md-flex flex-md-column flex-lg-row justify-content-md-around align-items-md-center">
-                   
-                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex ms-3">
-                      <li class="nav-item me-4">
-                        <a class="nav-link active" aria-current="page" href="#">Home 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item me-4">
-                        <a class="nav-link" href="#">Services 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item me-4">
-                        <a class="nav-link" aria-disabled="true">Cases 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item me-4">
-                        <a class="nav-link" aria-disabled="true">Blog 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item me-4">
-                        <a class="nav-link" aria-disabled="true">Contact Us 
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="custom-btn">
-                        <button class="btn btn-primary py-1 px-3">Free Consultation</button>
-                    </div>
-                </div>
-              </div>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Services
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" aria-disabled="true">Cases
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" aria-disabled="true">Blog
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" aria-disabled="true">Contact Us
+                  <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="custom-btn">
+              <button class="btn btn-primary py-1 px-3">Free Consultation</button>
             </div>
-        </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- jombotron stection -->
+  <div
+    class="jombotron-section container d-sm-flex flex-sm-column d-md-flex flex-md-column justify-content-center align-items-center pt-sm-5">
+    <img class="img-fluid w-100" src="./images/banner.png" alt="">
+    <div class="d-sm-flex flex-sm-column justify-content-center align-items-center text-center mt-sm-5 mt-md-0">
+      <h1 class="text-capitalize display-3 fw-bolder">We Provide Effective<br>
+        Legal Solutions</h1>
+      <p class="mt-2 px-md-4">There are many variations of passages of Lorem Ipsum available, but the majority<br>
+        have suffered alteration in some form, by injected humour.</p>
+      <div class="row d-flex justify-content-center align-items-center mt-3">
+        <div class="col-6">
+          <div class="input-group bg-white border rounded-1">
+            <input type="text" class="form-control py-2" aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default" placeholder="Search your services">
+          </div>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-primary px-4 py-2">Search</button>
+        </div>
+      </div>
     </div>
-    <!-- main section -->
-        
 
-    <!-- footer section -->
+  </div>
+  <!-- main section -->
+  <section class="mt-5 mt-md-5 pt-md-5">
+    <div class="container mt-md-5 pt-md-5">
+      <!-- section title -->
+      <div class="section-title text-center p-sm-0">
+        <h1>The Legal Practice Area</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have<br>suffered alteration
+          in
+          some form, by injected humour.</p>
+      </div>
+      <!-- section items -->
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 py-3 px-5 p-sm-0">
+          <div class="items d-flex flex-column justify-content-center align-items-center gx-5 text-center px-md-5 py-md-3 px-sm-2 py-sm-1 ">
+            <img src="./images/icons/business.png" alt="">
+            <h5>Business Law</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
 
 
 
 
-    <!-- bootstrap.bundle.main.js cdn link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+  <!-- bootstrap.bundle.main.js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

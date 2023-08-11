@@ -2,3 +2,35 @@
     --primaryColor: #1e90ff;
     --backgroundBody: #ffffff;
   }
+
+/* navbar custom css section */
+/* ------------------------------ */
+/* jombotron img custom css property */
+.jobotrom-title {
+  margin-bottom: -226px;
+}
+/* main custom css section */
+
+/* footer custom css section */
+
+
+
+/* media quary */
+/* navbar-custom media quary */
+/* ------------------------------- */
+/* jombotron media quary */
+@media only screen and (min-width: 375px) and (max-width: 367px)  {
+  .jombotron-section > img {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 992px){  
+  .jombotron-section > img {
+    margin-bottom: -428px;
+  }
+  .jombotron-section {
+    color: white;
+  }
+}
+/* main-custom media quary */
+/* footer-custom media quary */
