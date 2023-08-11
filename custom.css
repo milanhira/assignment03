@@ -2,6 +2,7 @@
     --primaryColor: #1e90ff;
     --backgroundBody: #ffffff;
   }
+ 
 
 /* navbar custom css section */
 /* ------------------------------ */
@@ -10,7 +11,11 @@
   margin-bottom: -225px;
 }
 /* main custom css section */
-
+.items:hover {
+  background-color: rgba(159, 159, 160, 0.421);
+  border-radius: 8px;
+  padding: 10px;
+}
 /* footer custom css section */
 
 
