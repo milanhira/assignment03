@@ -58,8 +58,29 @@
                 </a>
               </li>
             </ul>
+            <!-- modal section -->
+            <!-- Button trigger modal -->
             <div class="custom-btn">
-              <button class="btn btn-primary py-1 px-3">Free Consultation</button>
+              <button class="btn btn-primary py-1 px-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Free Consultation</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h1>This is your essential assignment modal</h1>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -426,56 +447,59 @@
   </section>
   <!-- footer section -->
   <section class="mt-5 mt-md-5 mt-md-5 pt-md-5" id="custom-footer-background">
-      <div class="container">
-        <div class=" py-5">
-          <div class="row d-flex justify-content-between align-content-center">
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="text-white">
-                <img src="./images/icons/logo.png" alt="">
-                <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour.</p>
-              </div>
+    <div class="container">
+      <div class=" py-5">
+        <div class="row d-flex justify-content-between align-content-center">
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="text-white">
+              <img src="./images/icons/logo.png" alt="">
+              <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered
+                alteration in some form, by injected humour.</p>
             </div>
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="text-white d-flex flex-column justify-content-center align-items-start">
-                <h4 class="mt-2 ps-3 custom-text-color">Usefull Link</h4>
-                <nav class="nav flex-column mt-3">
-                  <a class="nav-link text-white active" aria-current="page" href="#">Active</a>
-                  <a class="nav-link text-white" href="#">Link</a>
-                  <a class="nav-link text-white" href="#">Link</a>
-                  <a class="nav-link text-white" aria-disabled="true">Disabled</a>
-                </nav>
-              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="text-white d-flex flex-column justify-content-center align-items-start">
+              <h4 class="mt-2 ps-3 custom-text-color">Usefull Link</h4>
+              <nav class="nav flex-column mt-3">
+                <a class="nav-link text-white active" aria-current="page" href="#">Active</a>
+                <a class="nav-link text-white" href="#">Link</a>
+                <a class="nav-link text-white" href="#">Link</a>
+                <a class="nav-link text-white" aria-disabled="true">Disabled</a>
+              </nav>
             </div>
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="text-white d-flex flex-column justify-content-center align-items-start">
-                <h4 class="mt-2 ps-3 custom-text-color">Contact Now</h4>
-                <nav class="nav flex-column mt-3">
-                  <p class="nav-link text-white active" aria-current="page" href="#">555 4th 5t NW, Washington<br>
-                    DC 20530, United States</p>
-                  <p class="nav-link text-white" href="#">+88 01750 000 000<br>
-                    +88 01750 000 000</p>
-                  <p class="nav-link text-white" href="#">info@gmail.com<br>
-                    info@gmail.com</p>
-                </nav>
-              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="text-white d-flex flex-column justify-content-center align-items-start">
+              <h4 class="mt-2 ps-3 custom-text-color">Contact Now</h4>
+              <nav class="nav flex-column mt-3">
+                <p class="nav-link text-white active" aria-current="page" href="#">555 4th 5t NW, Washington<br>
+                  DC 20530, United States</p>
+                <p class="nav-link text-white" href="#">+88 01750 000 000<br>
+                  +88 01750 000 000</p>
+                <p class="nav-link text-white" href="#">info@gmail.com<br>
+                  info@gmail.com</p>
+              </nav>
             </div>
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="text-white d-flex flex-column justify-content-center align-items-start">
-                <h4 class="mt-2 ps-3 custom-text-color">Subscribe</h4>
-                <nav class="nav flex-column mt-3">
-                  <p class="nav-link text-white active" aria-current="page" href="#">Subscribe for our latest & Articles.<br>We Won’t Give You<br> Spam Mails</p>
-                  <div class="mb-3 py-1 ps-3 d-flex justify-content-end align-items-center">
-                    <input type="email" class="form-control py-2 fs-4" id="exampleInputEmail1" aria-describedby="emailHelp"
-                      placeholder="Your Email">
-                      <i class="fa-regular fa-paper-plane display-6" style="background-color: rgb(158, 111, 52); padding: 10px; border-radius: 50px; margin-left: -47px;"></i>
-                  </div>
-                </nav>
-              </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="text-white d-flex flex-column justify-content-center align-items-start">
+              <h4 class="mt-2 ps-3 custom-text-color">Subscribe</h4>
+              <nav class="nav flex-column mt-3">
+                <p class="nav-link text-white active" aria-current="page" href="#">Subscribe for our latest &
+                  Articles.<br>We Won’t Give You<br> Spam Mails</p>
+                <div class="mb-3 py-1 ps-3 d-flex justify-content-end align-items-center">
+                  <input type="email" class="form-control py-2 fs-4" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Your Email">
+                  <i class="fa-regular fa-paper-plane display-6"
+                    style="background-color: rgb(158, 111, 52); padding: 10px; border-radius: 50px; margin-left: -47px;"></i>
+                </div>
+              </nav>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
   <!-- bootstrap.bundle.main.js cdn link -->
