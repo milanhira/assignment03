@@ -16,6 +16,15 @@
   border-radius: 8px;
   padding: 10px;
 }
+.custom-border {
+  border: 10px solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.custom-background {
+  background-color: azure;
+}
 /* footer custom css section */
 
 
@@ -27,6 +36,9 @@
 @media only screen and (min-width: 375px) and (max-width: 367px)  {
   .jombotron-section > img {
     margin-bottom: 0px;
+  }
+  .custom-background {
+    padding: 10px 5px;
   }
 }
 @media only screen and (min-width: 992px){  
