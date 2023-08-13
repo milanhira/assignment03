@@ -26,8 +26,8 @@
   background-color: azure;
 }
 /* footer custom css section */
-.custom-footer-background {
-  background-color: black;
+#custom-footer-background {
+  background-color: black!important;
 }
 
 
