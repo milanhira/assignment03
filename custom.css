@@ -51,7 +51,7 @@
     color: white;
   }
 }
-@media only screen and (min-width: 375px) and (max-width: 667px) {  
+@media only screen and (min-width: 250px) and (max-width: 700px) {  
   /* footer sectio heading title color */
   .custom-text-color {
     color: blue!important;
